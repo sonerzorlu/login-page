@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>REGISTER PAGE</h1>
+    <form action="">
+      <div>
+        <label for="firstname">FIRST NAME:</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Enter Your First Name"
+          required
+          class="inputs"
+        />
+      </div>
+      <div>
+        <label for="lastname">LAST NAME:</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Enter Your Last Name"
+          required
+          class="inputs"
+        />
+      </div>
+      <div>
+        <label for="email">EMAIL:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Your Email"
+          class="inputs"
+        />
+      </div>
+      <div>
+        <label for="password">PASSWORD:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Your Password"
+          class="inputs"
+        />
+      </div>
+
+      <div>
+        <label for="dob">Day Of Birth:</label>
+        <input type="date" id="dob name="dob" placeholder="Enter Your Day of
+        Birth" min="01.01.2001" max="01.01.2080" 
+        class="inputs"/>
+      </div>
+
+      <div>
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter Your Phone Number"
+          class="inputs"
+        />
+      </div>
+
+      <div class="etxt">
+        <label for="adress">ADRESS:</label>
+        <textarea name="adress" id="adress" cols="30" rows="10" class="inputs"></textarea>
+      </div>
+      <label for="country">COUNTRY:</label>
+      <select name="" id="" class="inputs">
+        <option>select country</option>
+        <option value="turkey"></option>
+        <option value="AF">Afghanistan</option>
+        <option value="AX">Aland Islands</option>
+        <option value="AL">Albania</option>
+        <option value="DZ">Algeria</option>
+        <option value="AS">American Samoa</option>
+        <option value="AD">Andorra</option>
+        <option value="AO">Angola</option>
+      </select>
+
+      <div class="" gen-div>
+        <label for="gender">GENDER:</label>
+        <div class="gen-div">
+          <input class="ex" type="radio" id="gender" name="gender" value="female" />
+          <label for="gender">female</label>
+          <input class="ex" type="radio" id="gender" name="gender" value="male" />
+          <label for="gender">male</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="languages">Languages:</label>
+        <div class="lang-div">
+          <input class="ex" type="checkbox" name="lang" id="turkish" />
+          <label for="turkish"> Turkish </label>
+          <input class="ex" type="checkbox" name="lang" id="english" />
+          <label for="english"> English </label>
+          <input class="ex" type="checkbox" name="lang" id="kurdish" />
+          <label for="kurdish"> Kurdish </label>
+          <input class="ex" type="checkbox" name="lang" id="arabic" />
+          <label for="arabic"> El-Arabic</label>
+          
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <input type="submit" value="Save" />
+        <input type="submit" value="Clear" />
+      </div>
+    </form>
+  </body>
+</html>
